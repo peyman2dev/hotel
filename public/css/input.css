@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face {
+    font-family:
+        'IranSans-Thin'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-Thin.woff);
+}
+
+@font-face {
+    font-family:
+        'IranSans-Light'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-Light.woff);
+}
+
+@font-face {
+    font-family:
+        'IranSans-Regular'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-Regular.woff);
+}
+
+@font-face {
+    font-family:
+        'IranSans-Medium'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-Medium.woff);
+}
+
+@font-face {
+    font-family:
+        'IranSans-DemiBold'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-DemiBold.woff);
+}
+
+
+@font-face {
+    font-family:
+        'IranSans-Bold'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-Bold.woff);
+}
+
+
+@font-face {
+    font-family:
+        'IranSans-ExtraBold'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-ExtraBold.woff);
+}
+
+@font-face {
+    font-family:
+        'IranSans-Black'
+    ;
+    src: url(../fonts/IranSansX/IRANSansXFaNum-Black.woff);
+}
+
+@font-face {
+    font-family:
+        'Kalameh-Thin'
+    ;
+    src: url(../fonts/Kalameh/Kalameh-Thin.woff);
+}
+
+@font-face {
+    font-family:
+        'Kalameh-Light'
+    ;
+ src: url(../fonts/Kalameh/Kalameh-Light.woff);
+}
+
+@font-face {
+    font-family:
+        'Kalameh-Regular'
+    ;
+ src: url(../fonts/Kalameh/Kalameh-Regular.woff);
+}
+
+@font-face {
+    font-family:
+        'Kalameh-Medium'
+    ;
+  src: url(../fonts/Kalameh/Kalameh--Medium.woff);
+}
+
+@font-face {
+    font-family:
+        'Kalameh-DemiBold'
+    ;
+  src: url(../fonts/Kalameh/Kalameh-SemiBold.woff);
+}
+
+
+@font-face {
+    font-family:
+        'Kalameh-Bold'
+    ;
+ src: url(../fonts/Kalameh/Kalameh--Bold.woff);
+}
+
+
+@font-face {
+    font-family:
+        'Kalameh-ExtraBold'
+    ;
+ src: url(../fonts/Kalameh/Kalameh--ExtraBold.woff);
+}
+
+@font-face {
+    font-family:
+        'Kalameh-Black'
+    ;
+    src: url(../fonts/Kalameh/Kalameh--Black.woff);
+}
+
+@font-face {
+    font-family:
+        'Bagela'
+    ;
+    src: url(../fonts/en/Bagela.ttf);
+}
+
+@font-face {
+    font-family:
+        'Aesthetiva'
+    ;
+    src: url(../fonts/en/Aesthetiva.ttf);
+}
+
+
+body {
+    @apply font-IranSans-Regular text-lg max-w-[1920px] mx-auto text-[#0c0c0c] bg-gray-100
+}
+
+.ic {
+    @apply flex items-center
+}
+
+.between {
+    @apply flex items-center justify-between
+}
+
+.center {
+    @apply flex justify-center items-center
+}
+
+.child-ic {
+    @apply child:flex child:items-center
+}
+
+.child-center {
+    @apply child:flex child:justify-center child:items-center
+}
+
+.child-between {
+    @apply child:flex child:items-center child:justify-between
+}
